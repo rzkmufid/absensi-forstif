@@ -1,0 +1,214 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #ffff;
+    font-size: 20px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    background: linear-gradient(242.21deg, #7686E0 28.99%, #A5E6F3 109.05%);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.akses1 {
+    position: absolute;
+    left: 17vw;
+    top: 10vh;
+}
+
+.akses2 {
+    position: absolute;
+    right: 15.5vw;
+    bottom: 15vh;
+}
+
+.atas {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+
+    .kartu {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        width: 61vw;
+        height: 64vh;
+        background: linear-gradient(105.37deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.06) 100%);
+        backdrop-filter: blur(0.8rem);
+        border-radius: 27px;
+        border: 0.2px solid #a6b1f0;
+
+        .kiri {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+            flex: 1;
+            flex-direction: column;
+
+            img {
+                width: 80%;
+                margin: 0 auto;
+                position: relative;
+                top: 4.2vh;
+            }
+
+
+
+            p {
+                position: relative;
+                left: 2vw;
+                bottom: 3vh;
+                font-size: 2rem;
+                font-weight: 500;
+            }
+
+            .forum {
+                margin-top: -25px;
+                font-weight: 400;
+                font-size: 18px;
+            }
+
+            .grow {
+                margin-top: -10px;
+                font-size: 2rem;
+                font-weight: 600;
+                margin-top: -40px;
+                margin-bottom: -20px;
+            }
+
+        }
+    }
+
+    .kanan {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex: 1;
+        flex-direction: column;
+
+        .atas {
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            p {
+                margin-top: -15px;
+                font-weight: 600;
+                font-size: 2rem;
+            }
+
+        }
+
+        .absensi {
+            padding: 0 30px;
+
+            .input-grup {
+                margin-top: 30px;
+            }
+
+            form {
+                input {
+                    font-size: 18px;
+                    outline: none;
+                    background-color: #7686e000;
+                    border: none;
+                    border-bottom: 2px solid #fff;
+                    width: 100%;
+                    color: #fff;
+                    font-weight: 300;
+
+                }
+
+                input::placeholder {
+                    color: rgba(255, 255, 255, 0.35);
+                    font-weight: 200;
+
+                }
+
+
+            }
+        }
+
+        .bag-tombol {
+            display: flex;
+            justify-content: center;
+
+
+            .tombol {
+                width: 116px;
+                height: 40px;
+                font-weight: 500;
+                font-size: 18px;
+                border: 0px;
+                background: linear-gradient(277.38deg, #A5E6F3 -7.21%, #77BEFF 95.99%);
+                box-shadow: 1px 1px 24px -12px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+            }
+
+        }
+    }
+}
+
+@media(min-width:768px) {
+    .akses3 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .akses3 {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .akses2 {
+        bottom: 11vh;
+    }
+
+    .akses1 {
+        display: none;
+    }
+
+    .atas {
+        .kartu {
+            width: 90%;
+
+            .kiri {
+                display: flex;
+                flex: 0;
+
+                p {
+                    display: none;
+                }
+
+                img {
+                    display: none;
+                }
+
+            }
+
+
+        }
+    }
+
+
+}

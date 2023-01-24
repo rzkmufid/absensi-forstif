@@ -1,0 +1,162 @@
+// @media screen and(max-width:1200px) {
+//     .container {
+//         .dataTables_wrapper {
+//             width: 80%;
+
+
+//         }
+
+//         .dt-buttons {
+//             float: none;
+//             text-align: center;
+//             margin: 0.5em;
+//         }
+
+
+//     }
+
+//     .dataTables_filter {
+
+//         label,
+//         .form-control {
+//             display: none;
+//         }
+//     }
+// }
+
+
+* {
+    font-family: 'poppins';
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+
+.dt-buttons {
+
+
+    button {
+        border: none;
+        background: rgba(245, 244, 244, 0.179);
+        box-shadow: 1px 1px 24px -12px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+
+    }
+
+    .btn-secondary {
+        border-radius: 10px;
+
+
+    }
+}
+
+
+.paginate_button {
+    li {
+        border: none;
+        background: rgba(245, 244, 244, 0.179);
+        box-shadow: 1px 1px 24px -12px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        margin: 2px;
+    }
+
+    a {
+        border: none;
+        background: rgba(245, 244, 244, 0.179);
+        box-shadow: 1px 1px 24px -12px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        margin: 5px;
+        color: #fff;
+
+
+
+    }
+
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(242.21deg, #7686E0 28.99%, #A5E6F3 109.05%);
+
+}
+
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.akses1 {
+    position: absolute;
+    left: 37vh;
+    top: 4vw;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(132.15deg, #FFDD64 18%, #E126FF 100%);
+}
+
+.akses2 {
+    position: absolute;
+    right: 39vh;
+    bottom: 12vw;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(120.15deg, #DD779F 18%, #EFB217 100%);
+}
+
+.container {
+
+
+    .judul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        .display-4 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .display-3 {
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: -16px;
+            margin-bottom: -2px;
+        }
+
+        .display-2 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+
+    .card {
+        margin-top: 7vw;
+        height: auto;
+        background: linear-gradient(105.37deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.06) 100%);
+        backdrop-filter: saturate(100%)blur(1rem);
+        border: 0.2px solid #a6b1f0;
+        /* Note: backdrop-filter has minimal browser support */
+
+        border-radius: 27px;
+
+    }
+
+    thead,
+    td {
+        text-align: center;
+    }
+
+}

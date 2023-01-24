@@ -1,0 +1,253 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: #ffff;
+  font-size: 20px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  background: linear-gradient(242.21deg, #7686E0 28.99%, #A5E6F3 109.05%);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.akses1 {
+  position: absolute;
+  left: 17vw;
+  top: 10vh;
+}
+
+.akses2 {
+  position: absolute;
+  right: 15.5vw;
+  bottom: 15vh;
+}
+
+.atas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.atas .kartu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 61vw;
+  height: 64vh;
+  background: linear-gradient(105.37deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.06) 100%);
+  -webkit-backdrop-filter: blur(0.8rem);
+          backdrop-filter: blur(0.8rem);
+  border-radius: 27px;
+  border: 0.2px solid #a6b1f0;
+}
+
+.atas .kartu .kiri {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.atas .kartu .kiri img {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: 4.2vh;
+}
+
+.atas .kartu .kiri p {
+  position: relative;
+  left: 2vw;
+  bottom: 3vh;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.atas .kartu .kiri .forum {
+  margin-top: -25px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.atas .kartu .kiri .grow {
+  margin-top: -10px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: -40px;
+  margin-bottom: -20px;
+}
+
+.atas .kanan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.atas .kanan .atas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.atas .kanan .atas h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.atas .kanan .atas p {
+  margin-top: -15px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.atas .kanan .absensi {
+  padding: 0 30px;
+}
+
+.atas .kanan .absensi .input-grup {
+  margin-top: 30px;
+}
+
+.atas .kanan .absensi form input {
+  font-size: 18px;
+  outline: none;
+  background-color: #7686e000;
+  border: none;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  color: #fff;
+  font-weight: 300;
+}
+
+.atas .kanan .absensi form input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.35);
+  font-weight: 200;
+}
+
+.atas .kanan .absensi form input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.35);
+  font-weight: 200;
+}
+
+.atas .kanan .absensi form input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.35);
+  font-weight: 200;
+}
+
+.atas .kanan .absensi form input::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+  font-weight: 200;
+}
+
+.atas .kanan .bag-tombol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.atas .kanan .bag-tombol .tombol {
+  width: 116px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  border: 0px;
+  background: linear-gradient(277.38deg, #A5E6F3 -7.21%, #77BEFF 95.99%);
+  -webkit-box-shadow: 1px 1px 24px -12px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 24px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .akses3 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .akses3 {
+    width: 100%;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .akses2 {
+    bottom: 11vh;
+  }
+  .akses1 {
+    display: none;
+  }
+  .atas .kartu {
+    width: 90%;
+  }
+  .atas .kartu .kiri {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0;
+  }
+  .atas .kartu .kiri p {
+    display: none;
+  }
+  .atas .kartu .kiri img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
